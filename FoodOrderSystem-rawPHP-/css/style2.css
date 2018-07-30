@@ -1,0 +1,134 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Book Antiqua";
+}
+nav{
+    position: fixed;
+    z-index:1; /*other contain will go behind navber*/
+    top: 0;
+    left: 0;
+    overflow-scrolling: unset;
+    width: 100%;
+    height: 90px;
+    padding: 10px 100px;
+    box-sizing: border-box;
+    transition: .3s;
+
+    background: -webkit-linear-gradient(to left, #4d004d , transparent); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #4d004d , transparent); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+nav .logo{
+    padding: 22px 20px;
+    height: 80px;
+    float: left;
+    font-size: 24px;
+    transition: .3s;
+}
+
+nav ul{
+    list-style: revert;
+    float: right;
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    line-height: 80px;
+    color: #fff;
+    padding: 12px 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Cooper Black";
+    transition: 1.3s;
+}
+
+
+nav ul a:focus{
+    outline: red;
+}
+
+nav ul li a.active{
+    background: red;
+    color: white;
+    border-radius: 50px;
+}
+
+nav ul li a:hover{
+    background: red;
+    color: white;
+    border-radius: 30px;
+    transition: .3s;
+}
+
+
+section.about{
+    width: 100%;
+    /*background: url("https://www.solofoods.com/sites/default/files/tilted-pink-cupcake-wallpaper.jpg");*/
+    background-size: cover;
+    background-position: center;
+    background: -webkit-linear-gradient(to left, transparent , greenyellow); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, transparent , greenyellow); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    transition: 2.3s;
+
+}
+section.food{
+    width: 100%;
+    /*background: url("https://www.solofoods.com/sites/default/files/tilted-pink-cupcake-wallpaper.jpg");*/
+    background-size: cover;
+    background-position: center;
+    background: -webkit-linear-gradient(to left, hotpink , transparent); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, hotpink , transparent); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    transition: 2.3s;
+
+}
+section.order{
+    width: 100%;
+    /*background: url("https://www.solofoods.com/sites/default/files/tilted-pink-cupcake-wallpaper.jpg");*/
+    background-size: cover;
+    background-position: center;
+    background: -webkit-linear-gradient(to left, transparent , #66ccff); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, transparent , #66ccff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    transition: 2.3s;
+
+}
+section.location{
+    width: 100%;
+    /*background: url("https://www.solofoods.com/sites/default/files/tilted-pink-cupcake-wallpaper.jpg");*/
+    background-size: cover;
+    background-position: center;
+    background: -webkit-linear-gradient(to left, #9999ff , transparent); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #9999ff , transparent); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    transition: 2.3s;
+
+}
+
+
+.content{
+    margin-top: -500px;
+}
+.content p{
+    width: auto;
+    margin: 30px auto;
+    text-align: center;
+    font-size: 20px;
+    line-height: 30px;
+
+}
+
+.footer {
+    position: page;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #52527a;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    font-family: Forte;
+}
